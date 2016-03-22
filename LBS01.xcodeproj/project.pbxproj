@@ -13,6 +13,7 @@
 		F2FED3021CA1372000982158 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2FED3001CA1372000982158 /* Main.storyboard */; };
 		F2FED3041CA1372000982158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2FED3031CA1372000982158 /* Assets.xcassets */; };
 		F2FED3071CA1372000982158 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2FED3051CA1372000982158 /* LaunchScreen.storyboard */; };
+		F2FED30F1CA1395A00982158 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2FED30E1CA1395A00982158 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F2FED3031CA1372000982158 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2FED3061CA1372000982158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2FED3081CA1372000982158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2FED30E1CA1395A00982158 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2FED30F1CA1395A00982158 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 		F2FED2EB1CA1372000982158 = {
 			isa = PBXGroup;
 			children = (
+				F2FED30E1CA1395A00982158 /* CoreLocation.framework */,
 				F2FED2F61CA1372000982158 /* LBS01 */,
 				F2FED2F51CA1372000982158 /* Products */,
 			);
@@ -300,6 +304,7 @@
 				F2FED30D1CA1372000982158 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
